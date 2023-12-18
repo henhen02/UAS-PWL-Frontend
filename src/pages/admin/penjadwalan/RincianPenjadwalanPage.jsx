@@ -1,19 +1,18 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import StatusCard from "../../../components/cards/StatusCard";
+import { useNavigate } from "react-router-dom";
+import BackToPrevButton from "../../../components/buttons/BackToPrevButton";
 
 const RincianPenjadwalanPage = () => {
+  const navigate = useNavigate();
   const location = useLocation();
   console.log(location);
   return (
     <>
+      <BackToPrevButton text={"Rincian Jadwal"} />
       <div className="m-auto">
         <table className="table-auto border-collapse border border-gray-300">
-          <caption>
-            <h1 className="text-2xl font-bold text-[#262567] mb-2">
-              Rincian Jadwal
-            </h1>
-          </caption>
           <tbody>
             <tr>
               <th className="text-left p-2 border-b border-gray-300">

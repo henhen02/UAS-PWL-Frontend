@@ -2,12 +2,20 @@ import React from "react";
 import { petugasDump } from "../../../dump/petugasDump";
 import DetailButton from "../../../components/buttons/DetailButton";
 import { useNavigate } from "react-router-dom";
+import AddButton from "../../../components/buttons/AddButton";
+import { FaUserPlus } from "react-icons/fa";
 const DaftarPetugasPage = () => {
   const navigate = useNavigate();
+
   return (
     <>
-      <div className="flex flex-col gap-[3px]">
+      <div className="flex flex-row justify-between">
         <h1 className="text-2xl font-bold text-[#202027]">Petugas</h1>
+        <AddButton
+          icon={<FaUserPlus />}
+          text={"Tambah Petugas"}
+          onClick={() => navigate("/petugas/tambah-petugas")}
+        />
       </div>
       <div className="overflow-x-auto">
         <table className="w-full">

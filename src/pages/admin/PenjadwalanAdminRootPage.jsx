@@ -8,7 +8,7 @@ const PenjadwalanAdminPage = () => {
       <div id="page-container">
         <HeaderComponentLayout />
         <main id="main">
-          <div className="flex flex-col gap-[10px] p-[10px]">
+          <div className="flex flex-1 flex-col gap-[10px] p-[10px]">
             <Outlet />
           </div>
         </main>

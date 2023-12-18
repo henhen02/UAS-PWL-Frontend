@@ -4,8 +4,23 @@ import StatusCard from "../../components/cards/StatusCard";
 import FooterComponentLayout from "../../components/layouts/FooterComponentLayout";
 import HeaderComponentLayout from "../../components/layouts/HeaderComponentLayout";
 import DetailButton from "../../components/buttons/DetailButton";
+import { useState } from "react";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const DashboardAdminPage = () => {
+  const [filteredJadwal, setFilteredJadwal] = useState([]);
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    setFilteredJadwal(
+      jadwalDump.filter(
+        (jadwal) => new Date(jadwal.tanggal).getMonth() == new Date().getMonth()
+      )
+    );
+  }, [new Date().getMonth()]);
+
   return (
     <div id="page-container">
       <HeaderComponentLayout />
@@ -34,7 +49,7 @@ const DashboardAdminPage = () => {
                 </tr>
               </thead>
               <tbody>
-                {jadwalDump.map((jadwal, index) => (
+                {filteredJadwal.map((jadwal, index) => (
                   <tr key={index}>
                     <td className="py-2 px-4 text-center">{index + 1}</td>
                     <td className="py-2 px-4">{jadwal.instansi}</td>
@@ -44,7 +59,24 @@ const DashboardAdminPage = () => {
                       <StatusCard statusId={jadwal.status} />
                     </td>
                     <td>
-                      <DetailButton text={"Rincian"} jadwalId={jadwal.id} />
+                      <DetailButton
+                        text={"Rincian"}
+                        onClick={() => {
+                          navigate("/penjadwalan/rincian-jadwal", {
+                            state: {
+                              id: jadwal.id,
+                              instansi: jadwal.instansi,
+                              alamat: jadwal.alamat,
+                              tanggal: jadwal.tanggal,
+                              petugas: jadwal.petugas,
+                              penanggung_jawab: jadwal.penanggung_jawab,
+                              kontak_penaggung_jawab:
+                                jadwal.kontak_penanggung_jawab,
+                              status: jadwal.status,
+                            },
+                          });
+                        }}
+                      />
                     </td>
                   </tr>
                 ))}
