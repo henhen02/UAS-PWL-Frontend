@@ -1,0 +1,74 @@
+[
+    {
+        "petugas_id": "1",
+        "nip": "SYS.0001",
+        "petugas_nama": "John Doe",
+        "petugas_kontak": "081234567890",
+        "petugas_email": "johndoe@email.com",
+        "petugas_alamat": "Jl. Jalan No. Ahmad Yani 1"
+    },
+    {
+        "petugas_id": "2",
+        "nip": "SYS.0002",
+        "petugas_nama": "Jane Smith",
+        "petugas_kontak": "081234567891",
+        "petugas_email": "janesmith@email.com",
+        "petugas_alamat": "Jl. Jalan No. Ahmad Yani 2"
+    },
+    {
+        "petugas_id": "3",
+        "nip": "SYS.0003",
+        "petugas_nama": "David Johnson",
+        "petugas_kontak": "081234567892",
+        "petugas_email": "davidjohnson@email.com",
+        "petugas_alamat": "Jl. Jalan No. Ahmad Yani 3"
+    },
+    {
+        "petugas_id": "4",
+        "nip": "SYS.0004",
+        "petugas_nama": "Emily Brown",
+        "petugas_kontak": "081234567893",
+        "petugas_email": "emilybrown@email.com",
+        "petugas_alamat": "Jl. Jalan No. Ahmad Yani 4"
+    },
+    {
+        "petugas_id": "5",
+        "nip": "SYS.0005",
+        "petugas_nama": "Michael Wilson",
+        "petugas_kontak": "081234567894",
+        "petugas_email": "michaelwilson@email.com",
+        "petugas_alamat": "Jl. Jalan No. Ahmad Yani 5"
+    },
+    {
+        "petugas_id": "6",
+        "nip": "SYS.0006",
+        "petugas_nama": "Olivia Taylor",
+        "petugas_kontak": "081234567895",
+        "petugas_email": "oliviataylor@email.com",
+        "petugas_alamat": "Jl. Jalan No. Ahmad Yani 6"
+    },
+    {
+        "petugas_id": "7",
+        "nip": "SYS.0007",
+        "petugas_nama": "James Martinez",
+        "petugas_kontak": "081234567896",
+        "petugas_email": "jamesmartinez@email.com",
+        "petugas_alamat": "Jl. Jalan No. Ahmad Yani 7"
+    },
+    {
+        "petugas_id": "8",
+        "nip": "SYS.0008",
+        "petugas_nama": "Sophia Anderson",
+        "petugas_kontak": "081234567897",
+        "petugas_email": "sophiaanderson@email.com",
+        "petugas_alamat": "Jl. Jalan No. Ahmad Yani 8"
+    },
+    {
+        "petugas_id": "9",
+        "nip": "SYS.0009",
+        "petugas_nama": "William Thomas",
+        "petugas_kontak": "081234567898",
+        "petugas_email": "williamthomas@email.com",
+        "petugas_alamat": "Jl. Jalan No. Ahmad Yani 9"
+    }
+]

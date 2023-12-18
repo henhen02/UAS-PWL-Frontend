@@ -1,0 +1,104 @@
+{
+    "jadwal": [
+        {
+            "jadwalId": "1",
+            "instansi_tujuan": "Instansi A",
+            "petugas_id": "P001",
+            "status_id": "S001",
+            "alamat_instansi": "Jl. A",
+            "kontak_instansi": "08123456789",
+            "penanggung_jawab_instansi": "John Doe",
+            "jenis_sampel": "Sampel A"
+        },
+        {
+            "jadwalId": "2",
+            "instansi_tujuan": "Instansi B",
+            "petugas_id": "P002",
+            "status_id": "S002",
+            "alamat_instansi": "Jl. B",
+            "kontak_instansi": "08123456789",
+            "penanggung_jawab_instansi": "Jane Doe",
+            "jenis_sampel": "Sampel B"
+        },
+        {
+            "jadwalId": "3",
+            "instansi_tujuan": "Instansi C",
+            "petugas_id": "P003",
+            "status_id": "S003",
+            "alamat_instansi": "Jl. C",
+            "kontak_instansi": "08123456789",
+            "penanggung_jawab_instansi": "John Smith",
+            "jenis_sampel": "Sampel C"
+        },
+        {
+            "jadwalId": "4",
+            "instansi_tujuan": "Instansi D",
+            "petugas_id": "P004",
+            "status_id": "S004",
+            "alamat_instansi": "Jl. D",
+            "kontak_instansi": "08123456789",
+            "penanggung_jawab_instansi": "Jane Smith",
+            "jenis_sampel": "Sampel D"
+        },
+        {
+            "jadwalId": "5",
+            "instansi_tujuan": "Instansi E",
+            "petugas_id": "P005",
+            "status_id": "S005",
+            "alamat_instansi": "Jl. E",
+            "kontak_instansi": "08123456789",
+            "penanggung_jawab_instansi": "John Doe",
+            "jenis_sampel": "Sampel E"
+        },
+        {
+            "jadwalId": "6",
+            "instansi_tujuan": "Instansi F",
+            "petugas_id": "P006",
+            "status_id": "S006",
+            "alamat_instansi": "Jl. F",
+            "kontak_instansi": "08123456789",
+            "penanggung_jawab_instansi": "Jane Doe",
+            "jenis_sampel": "Sampel F"
+        },
+        {
+            "jadwalId": "7",
+            "instansi_tujuan": "Instansi G",
+            "petugas_id": "P007",
+            "status_id": "S007",
+            "alamat_instansi": "Jl. G",
+            "kontak_instansi": "08123456789",
+            "penanggung_jawab_instansi": "John Smith",
+            "jenis_sampel": "Sampel G"
+        },
+        {
+            "jadwalId": "8",
+            "instansi_tujuan": "Instansi H",
+            "petugas_id": "P008",
+            "status_id": "S008",
+            "alamat_instansi": "Jl. H",
+            "kontak_instansi": "08123456789",
+            "penanggung_jawab_instansi": "Jane Smith",
+            "jenis_sampel": "Sampel H"
+        },
+        {
+            "jadwalId": "9",
+            "instansi_tujuan": "Instansi I",
+            "petugas_id": "P009",
+            "status_id": "S009",
+            "alamat_instansi": "Jl. I",
+            "kontak_instansi": "08123456789",
+            "penanggung_jawab_instansi": "John Doe",
+            "jenis_sampel": "Sampel I"
+        },
+        {
+            "jadwalId": "10",
+            "instansi_tujuan": "Instansi J",
+            "petugas_id": "P010",
+            "status_id": "S010",
+            "alamat_instansi": "Jl. J",
+            "kontak_instansi": "08123456789",
+            "penanggung_jawab_instansi": "Jane Doe",
+            "jenis_sampel": "Sampel J"
+        }
+    ]
+}
