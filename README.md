@@ -51,6 +51,29 @@ Sebelum melanjutkan tahap ini, pastikan anda sudah menginstall [NodeJS](https://
 
 Aplikasi ini dapat berjalan dengan program backend yang dapat dilihat pada tautan [ini](https://github.com/henhen02/UAS-PWL-Backend.git)
 
+### Struktur Direktori
+
+```
+UAS_PWL_Frontend
+├─ assets
+├─ public
+└─ src
+   ├─ assets
+   ├─ components
+   │  ├─ buttons
+   │  ├─ cards
+   │  ├─ layouts
+   │  └─ user-layouts
+   ├─ pages
+   │  ├─ admin
+   │  │  ├─ penjadwalan
+   │  │  ├─ petugas
+   │  └─ petugas
+   ├─ root
+   └─ static
+
+```
+
 ### Preview
 
 ##### Login Page
