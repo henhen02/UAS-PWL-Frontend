@@ -18,6 +18,7 @@ import RincianPetugasPage from "./pages/admin/petugas/RincianPetugasPage";
 import LoginRoot from "./root/LoginRoot";
 import LoginPetugasPage from "./pages/petugas/LoginPetugasPage";
 import LoginAdminPage from "./pages/admin/LoginAdminPage";
+import LaporanBulananRootPage from "./pages/admin/LaporanBulananRootPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -34,6 +35,7 @@ const router = createBrowserRouter(
           <Route path="rincian-petugas" element={<RincianPetugasPage />} />
           <Route path="tambah-petugas" element={<TambahPetugasPage />} />
         </Route>
+        <Route path="laporan-bulanan" element={<LaporanBulananRootPage />} />
       </Route>
       <Route path="login" element={<LoginRoot />}>
         <Route index element={<LoginPetugasPage />} />

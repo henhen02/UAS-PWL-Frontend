@@ -38,13 +38,13 @@ const AdminSidebarLayout = () => {
             <h1 className="font-medium text-[14px] text-[#262567]">Akun</h1>
             <div style={{ borderBottom: "1px solid #262567" }}></div>
             <SidebarMenuButton
-              to="/profil"
+              to="/"
               label="Profil"
               icon={<FaIcons.FaUserAlt />}
             />
 
             <SidebarMenuButton
-              to="/logout"
+              to="/login"
               label="Logout"
               icon={<FaIcons.FaSignOutAlt />}
             />

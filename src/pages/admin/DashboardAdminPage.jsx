@@ -7,6 +7,7 @@ import DetailButton from "../../components/buttons/DetailButton";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import ContentEmptyCard from "../../components/cards/ContentEmptyCard";
 
 const DashboardAdminPage = () => {
   const [filteredJadwal, setFilteredJadwal] = useState([]);
@@ -28,11 +29,11 @@ const DashboardAdminPage = () => {
         <div className="flex flex-col gap-[10px] p-[10px]">
           <div className="flex flex-col gap-[3px]">
             <h1 className="text-2xl font-bold text-[#262567]">
-              Jadwal Hari Ini
+              Jadwal Bulan Ini
             </h1>
             <p className="text-gray-500 text-[12px]">
-              <b>{jadwalDump.length} jadwal </b>
-              harus harus diselesaikan hari ini.
+              <b>{filteredJadwal.length} jadwal </b>
+              harus harus diselesaikan bulan ini.
             </p>
           </div>
           <div className="overflow-x-auto">
@@ -93,6 +94,7 @@ const DashboardAdminPage = () => {
               Permintaan sampling periode {new Date().getFullYear()}
             </p>
           </div>
+          <ContentEmptyCard />
         </div>
       </main>
       <FooterComponentLayout />
